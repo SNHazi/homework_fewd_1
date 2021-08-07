@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+   
+}
+
+.flex{
+    display: flex;
+}
+
+.header {
+    padding-left: 2px;
+    background-color: black;
+    background-size: 150px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2{
+    color: yellow;
+    padding: 15px;
+    margin-top: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header nav{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.header nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 17px;
+
+}
+
+.header .style{
+    font-family: Verdana, -serif, Helvetica, serif;
+}
+
+.yellowline{
+    background-color: yellow;
+    height: 3px;
+}
+
+.container2 h4{
+    background-color: grey;
+    opacity: 89%;
+    color: black;
+    height: 40px;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    
+}
+
+span{
+    text-decoration: line-through;
+}
+
+span1{
+    text-decoration: underline ;
+    text-decoration-color: yellow;
+}
+
+.main{
+    margin: 0;
+}
+
+.banner{
+    background-image: url("../img/bg.jpg");
+    margin: 0;
+    height: 600px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+}
+
+.banner .box{
+    background-color: white;
+    opacity: 90%;
+    background-size: 150px;
+    width: 300px;
+    height: 220px;
+    padding: 25px;
+    
+}
+
+.banner .box .button{
+    background-color: yellow; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    color: black;
+    padding: 10px 80px;
+    text-decoration: none;
+    
+}
+
+.side{
+    padding: 15px 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.side a{
+    background-color: grey;
+    box-shadow: -1px 5px 5px rgb(148, 148, 148);
+    padding: 10px 70px;
+    color: black;
+    margin-right:20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer{
+    color: white;
+    padding: 10px ;
+    background-color: black;
+}
+
+
